@@ -13,7 +13,6 @@ add_library(MainWindow STATIC ${SOURCE_LIB})
 link_directories ( ${GTKMM_LIBRARY_DIRS} )
 include_directories( ${GTKMM_INCLUDE_DIRS} )
 
-
 add_executable(Remuxer ${SOURCE_EXE})
 
 target_link_libraries(Remuxer ${GTKMM_LIBRARIES} MainWindow)
